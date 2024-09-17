@@ -1,0 +1,14 @@
+{
+  "name": "ts-classes-and-interfaces-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Classes & Interfaces",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
