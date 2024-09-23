@@ -1,3 +1,14 @@
+// type AddFn = (a: number, b: number) => number;
+interface AddFn {
+  (a: number, b: number): number;
+}
+
+let add: AddFn;
+
+add = (n1: number, n2: number) => {
+  return n1 + n2;
+};
+
 interface Named {
   readonly name: string;
 }
@@ -14,7 +25,7 @@ class Person implements Greetable {
     this.name = n;
   }
 
-  greet(phrase: string){
+  greet(phrase: string) {
     console.log(phrase + ' ' + this.name);
   }
 }
